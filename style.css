@@ -1,0 +1,13 @@
+body{
+    background: black;
+    color: white;
+    
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
