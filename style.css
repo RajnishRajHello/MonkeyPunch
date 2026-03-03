@@ -1,32 +1,118 @@
-body{
-    background: black;
-    color: white;
-    display: flex;
-    padding-top: 100px;
-    /* padding-bottom: 100px; */
-    justify-content: center;
-    align-items: center; 
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
 }
 
+.heroContainer {
+  background-image: url(./images/monkey_with_plushy_on_a_horse.jpg);
+  width: 100%;
+  position: relative;
+}
+.heroimg {
+  width: 100%;
+}
 
+.navbar {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 140px;
 
-#container h1 a{
-    color: lime;
-    text-decoration: underline;
+  background-color: #2526288e;
+
+  margin: 0px;
+  color: rgb(244, 244, 244);
+  font-size: 50px;
 }
-#container h1 span{
-    
-    color: red;
-    margin-left: 200px;
+
+.monkeyPunch {
+  padding-top: 40px;
+  padding-left: 20px;
 }
-.images{
-    display: block;
-    justify-content: baseline;
-    /* align-items: center; */
+
+.menue {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.252);
+  display: flex;
+  display: none;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 80px;
+  margin: 15px;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 20px;
 }
-.images img{
-    border: 2px solid rgb(183, 132, 132);
-    width: 500px;
-    padding: 10px;
-    /* margin: 30px; */
+
+.menue span {
+  width: 140px;
+
+  margin: 10px;
+  border: 5px solid rgb(254, 254, 254);
+}
+
+.shopNow {
+  position: absolute;
+  top: 250px;
+  left: 20%;
+  color: #ffffff;
+  font-size: 40px;
+  background-color: rgb(25, 141, 230);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.readBlogs {
+  position: absolute;
+  top: 250px;
+  right: 20%;
+  color: #000000;
+  font-size: 40px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contacts {
+  background-color: sandybrown;
+  font-size: 20px;
+  padding: 30px;
+  margin: 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+/* blog styling */
+.blog {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  color: #333;
+  border-radius: 10px;
+  font-size: 40px;
+}
+.blog h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.blog h2 {
+  font-size: 2em;
+  margin-top: 30px;
+}
+.blog p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.blog em {
+  font-style: italic;
 }
